@@ -32,6 +32,7 @@ Vision Transformer와 같이 이미지를 픽셀로 읽지 않고, 패치 단위
 
 
 <img src='https://github.com/Paralies/Swin-CIFAR10_test/assets/69889235/17c2355c-49c3-48ec-b97d-e6c574d509d3' width="60%" height="60%">
+[Image from Liu, Z., Lin, Y., Cao, Y., Hu, H., Wei, Y., Zhang, Z., ... & Guo, B. (2021). Swin transformer: Hierarchical vision transformer using shifted windows. In Proceedings of the IEEE/CVF international conference on computer vision (pp. 10012-10022).]
 
 
 - 참고 사이트: https://visionhong.tistory.com/31
