@@ -26,10 +26,10 @@
 
 
 ## Swin Transformer에 대한 간단한 설명
-Swin Transformer는 기존의 Vision Transformer와 같이 NLP 분석에 주로 쓰이는 Transformer를 비전 분야에 사용하였습니다.
-Vision Transformer와 같이 이미지를 픽셀로 읽지 않고, 패치 단위로 읽어 이미지 분석을 수행합니다.
-하지만, 이미지 전체를 한 번에 처리하는 Vision Transformer와는 달리, Swin Transformer는 피라미드 네트워크와 같이 윈도우로 이미지를 처음에 분할하고, 각각의 윈도우에 포함된 패치끼리만 연산 및 병합해 처리한다.
-즉, Swin Transformer는 Vision Transformer와 같이 패치 단위를 적용해 이미지를 분석하지만, Swin Transformer는 이와 함께 윈도우 기법을 추가해 패치를 구분지어 병합해 나가는 과정이 추가되었다.
+- Swin Transformer는 기존의 Vision Transformer처럼 NLP 분야에 주로 쓰이는 Transformer를 비전 분야에 사용하였습니다.
+기본적인 이미지 분석 방법은 Vision Transformer와 같이 이미지를 픽셀로 읽지 않고, 패치 단위로 읽어 이미지 분석을 수행합니다.
+하지만, 이미지 전체를 한 번에 처리하는 Vision Transformer와는 달리, Swin Transformer는 피라미드 네트워크와 같이 윈도우로 이미지를 처음에 분할하고, 각각의 윈도우에 포함된 패치끼리만 연산 및 병합해 처리합니다.
+즉, Swin Transformer는 Vision Transformer와 같이 패치 단위를 적용해 이미지를 분석하지만, Swin Transformer는 이와 함께 윈도우 기법을 추가해 패치를 구분지어 병합해 나가는 과정이 추가되었습니다.
 
 
 <img src='https://github.com/Paralies/Swin-CIFAR10_test/assets/69889235/17c2355c-49c3-48ec-b97d-e6c574d509d3' width="60%" height="60%">
