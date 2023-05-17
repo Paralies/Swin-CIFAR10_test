@@ -31,8 +31,7 @@ Vision Transformer와 같이 이미지를 픽셀로 읽지 않고, 패치 단위
 즉, Swin Transformer는 Vision Transformer와 같이 패치 단위를 적용해 이미지를 분석하지만, Swin Transformer는 이와 함께 윈도우 기법을 추가해 패치를 구분지어 병합해 나가는 과정이 추가되었다.
 
 
-![Swin_Transformer_outline](https://github.com/Paralies/Swin-CIFAR10_test/assets/69889235/17c2355c-49c3-48ec-b97d-e6c574d509d3) {: width="60%"",height=60%""}
-<img src='https://github.com/Paralies/Swin-CIFAR10_test/assets/69889235/17c2355c-49c3-48ec-b97d-e6c574d509d3'>
+<img src='https://github.com/Paralies/Swin-CIFAR10_test/assets/69889235/17c2355c-49c3-48ec-b97d-e6c574d509d3' width="60%" height="60%">
 
 
 - 참고 사이트: https://visionhong.tistory.com/31
